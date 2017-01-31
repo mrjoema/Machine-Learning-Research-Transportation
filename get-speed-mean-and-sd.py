@@ -32,9 +32,30 @@ def get_speed_limit(coordList):
         count += 1
     return (sum * 2.23694) / count
 
+def get_speed_list(coordList):
+    speed_list = []
+    for coordinate in coordList:
+        params['waypoint'] = coordinate
+        resp = requests.get(url=REST_URL, params=params)
+        data = json.loads(resp.text)
+        response = data.get('response', 0)
+        if response == 0:
+            continue
+        speed = data['response']['link'][0].get('speedLimit', 0)
+        if speed == 0:
+            continue
+        speed_list.append(speed * 2.23694)
+    return speed_list
 
-#conn = sqlite3.connect('linkDB.db')
-#print ("Opened database successfully")
+def write_to_db(c, mean, sd, size):
+    # Create table
+
+    # Insert a row of data
+    c.execute("insert into SPEED_LIMIT (mean, sd, size) VALUES (?,?,?)",(mean, sd, size))
+
+    # Save (commit) the changes
+    conn.commit()
+
 
 f = open('linkinfo-copy.csv')
 csv_f = csv.reader(f)
@@ -47,8 +68,23 @@ ENCODEDPOLYLINE = "EncodedPolyLine"
 ENCODEDPOLYLINE_LEVELS = "EncodedPolyLineLvls"
 SPEEDLIMIT = "Speed Limit"
 
+list = []
 count = 0
 for row in csv_f:
   coordList = row[1].split(' ')
-  print(count, ' ', get_speed_limit(coordList))
+  list.append(get_speed_list(coordList))
+  print('finish ', count)
   count += 1
+
+print("Ready to read data to db")
+
+conn = sqlite3.connect('mean_sd.db')
+conn.execute('''CREATE TABLE IF NOT EXISTS SPEED_LIMIT
+             (ID INTEGER PRIMARY KEY AUTOINCREMENT, mean real, sd real, size integer)''')
+for traffics in list:
+     sd = statistics.stdev(traffics)
+     mean = statistics.median(traffics)
+     write_to_db(conn, mean, sd, len(traffics))
+     print("row inserted !!")
+
+conn.close()
