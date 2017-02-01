@@ -14,24 +14,6 @@ params = dict(
     app_code =APP_CODE,
 )
 
-
-def get_speed_limit(coordList):
-    sum = 0
-    count = 0
-    for coordinate in coordList:
-        params['waypoint'] = coordinate
-        resp = requests.get(url=REST_URL, params=params)
-        data = json.loads(resp.text)
-        response = data.get('response', 0)
-        if response == 0:
-            continue
-        speed = data['response']['link'][0].get('speedLimit', 0)
-        if speed == 0:
-            continue
-        sum += speed
-        count += 1
-    return (sum * 2.23694) / count
-
 def get_speed_list(coordList):
     speed_list = []
     for coordinate in coordList:
@@ -47,18 +29,12 @@ def get_speed_list(coordList):
         speed_list.append(speed * 2.23694)
     return speed_list
 
-def write_to_db(c, mean, sd, size):
-    # Create table
-
+def write_to_db(c, id, mean, sd, size):
     # Insert a row of data
-    c.execute("insert into SPEED_LIMIT (mean, sd, size) VALUES (?,?,?)",(mean, sd, size))
-
+    c.execute("insert into SPEED_LIMIT (linkid, mean, sd, size) VALUES (?,?,?,?)",(id,mean, sd, size))
     # Save (commit) the changes
     conn.commit()
 
-
-f = open('linkinfo-copy.csv')
-csv_f = csv.reader(f)
 
 LINK_ID = 'linkId'  # name of the table to be created
 BOROUGH = 'Borough' # name of the column
@@ -68,23 +44,35 @@ ENCODEDPOLYLINE = "EncodedPolyLine"
 ENCODEDPOLYLINE_LEVELS = "EncodedPolyLineLvls"
 SPEEDLIMIT = "Speed Limit"
 
+# Read the csv file
+f = open('linkinfo-copy.csv')
+csv_f = csv.reader(f)
+idlist = []
 list = []
 count = 0
 for row in csv_f:
+  linkid = row[0]
   coordList = row[1].split(' ')
+  # function get_speed_list() returns the list with speed limit of each sensor
   list.append(get_speed_list(coordList))
+  idlist.append(linkid)
   print('finish ', count)
   count += 1
 
 print("Ready to read data to db")
 
-conn = sqlite3.connect('mean_sd.db')
+conn = sqlite3.connect('mean_db.db')
 conn.execute('''CREATE TABLE IF NOT EXISTS SPEED_LIMIT
-             (ID INTEGER PRIMARY KEY AUTOINCREMENT, mean real, sd real, size integer)''')
-for traffics in list:
+             (linkid integer, mean real, sd real, size integer)''')
+count = 0
+for id, traffics in zip(idlist, list):
+     # use the lib to get the standard deviation
      sd = statistics.stdev(traffics)
+     # use the lib to get the average speed limit
      mean = statistics.median(traffics)
-     write_to_db(conn, mean, sd, len(traffics))
+     # get the id
+     linkid = idlist[count]
+     # function to write data to the database
+     write_to_db(conn, id, mean, sd, len(traffics))
      print("row inserted !!")
-
 conn.close()
