@@ -61,7 +61,7 @@ for row in csv_f:
 
 print("Ready to read data to db")
 
-conn = sqlite3.connect('mean_db.db')
+conn = sqlite3.connect('traffic.db')
 conn.execute('''CREATE TABLE IF NOT EXISTS SPEED_LIMIT
              (linkid integer, mean real, sd real, size integer)''')
 count = 0
