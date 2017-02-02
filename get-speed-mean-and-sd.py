@@ -33,7 +33,7 @@ def write_to_db(c, id, mean, sd, size):
     # Insert a row of data
     c.execute("insert into SPEED_LIMIT (linkid, mean, sd, size) VALUES (?,?,?,?)",(id,mean, sd, size))
     # Save (commit) the changes
-    conn.commit()
+    c.commit()
 
 
 LINK_ID = 'linkId'  # name of the table to be created
