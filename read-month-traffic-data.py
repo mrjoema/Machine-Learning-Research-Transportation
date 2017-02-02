@@ -43,7 +43,7 @@ for month in fileList:
         row = cursor.fetchall()
         speed_limit = int(row[0][0])
         speeding = False
-        if float(speed) > speed_limit:
+        if float(speed) > (speed_limit + 5):
           speeding = True
 
         # Insert a row of data
