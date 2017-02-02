@@ -10,7 +10,7 @@ import sqlite3
 
 conn = sqlite3.connect('traffic.db')
 conn.execute('''CREATE TABLE IF NOT EXISTS TRAFFIC_RECORD
-             (id INTEGER, speed REAL, date_time TEXT, linkid INTEGER)''')
+             (id INTEGER, speed REAL, date_time TEXT, linkid INTEGER, speeding Boolean)''')
 
 count = 0
 
@@ -38,9 +38,17 @@ for month in fileList:
         if count == 0:
           count = count + 1
           continue
+
+        cursor = conn.execute("SELECT mean from SPEED_LIMIT WHERE linkid=?",(linkid,))
+        row = cursor.fetchall()
+        speed_limit = int(row[0][0])
+        speeding = False
+        if float(speed) > speed_limit:
+          speeding = True
+
         # Insert a row of data
-        conn.execute("INSERT INTO TRAFFIC_RECORD (id, speed, date_time, linkid) VALUES (?,?,?,?)",
-                     (id, speed, date, linkid))
+        conn.execute("INSERT INTO TRAFFIC_RECORD (id, speed, date_time, linkid, speeding) VALUES (?,?,?,?,?)",
+                     (id, speed, date, linkid, speeding))
         # Save (commit) the changes
         conn.commit()
         print('finish ', month, ' ', count)
