@@ -29,12 +29,12 @@ linkid = curs(:,3);
 linkid= cell2mat(linkid);
 linkid = double(linkid);
 A = horzcat(id, speed, linkid);
-model = svmtrain(labelDouble, A ,'libsvm_options');
+model = svmtrain(labelDouble, A, '-c 1 -g 0.07');
 
 curs = fetch(conn,'select id, speed, linkid from TRAFFIC_TEST_RECORD');
 label = fetch(conn,'select speeding from TRAFFIC_TEST_RECORD');
-labelDouble= cell2mat(label);
-TESTlabelDouble = double(labelDouble);
+labelDouble2= cell2mat(label);
+TESTlabelDouble = double(labelDouble2);
 id = curs(: , 1);
 id= cell2mat(id);
 id = double(id);
@@ -46,4 +46,4 @@ linkid= cell2mat(linkid);
 linkid = double(linkid);
 TEST = horzcat(id, speed, linkid);
 
-[predicted_label, accuracy, decision_values, prob_estimates] = svmpredict(TESTlabelDouble, TEST, model , 'libsvm_options');
+[predict_lebel,accuracy] = svmpredict(TESTlabelDouble,TEST,model);
