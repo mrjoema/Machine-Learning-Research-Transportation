@@ -1,49 +1,19 @@
-dbfile = fullfile('traffic.db');
+[train_label, train_inst] = libsvmread(fullfile('raw-traffic-svm'));
+[N D] = size(heart_scale_inst);
 
-conn = sqlite(dbfile);
-curs = fetch(conn,'select id, speed, linkid from TRAFFIC_RECORD');
-label = fetch(conn,'select speeding from TRAFFIC_RECORD');
-%X = curs(: , 3);
-%formatIn = 'mm/dd/yyyy HH:MM:SS';
-%DateVec = datevec(X,formatIn);
+% Determine the train and test index
+trainIndex = zeros(N,1); trainIndex(1:N) = 1;
+trainData = train_inst(trainIndex==1,:);
+trainLabel = train_label(trainIndex==1,:);
 
-%month = DateVec(:, 2);
-%id = curs(:,2);
-%id = str2double(id);
+[test_label, test_inst] = libsvmread(fullfile('raw-test-traffic-svm'));
+[N D] = size(test_inst);
 
-%NewData = horzcat(month, id);
+testIndex = zeros(N,1); testIndex(1:N) = 1;
+testData = test_inst(testIndex==1,:);
+testLabel = test_label(testIndex==1,:);
 
-
-
-%curs = fetch(conn,'select * from TRAFFIC_RECORD')
-labelDouble= cell2mat(label);
-labelDouble = double(labelDouble);
-%cursDouble = cell2mat(curs);
-id = curs(: , 1);
-id= cell2mat(id);
-id = double(id);
-speed = curs(:,2);
-speed= cell2mat(speed);
-speed = double(speed);
-linkid = curs(:,3);
-linkid= cell2mat(linkid);
-linkid = double(linkid);
-A = horzcat(id, speed, linkid);
-model = svmtrain(labelDouble, A, '-c 1 -g 0.07');
-
-curs = fetch(conn,'select id, speed, linkid from TRAFFIC_TEST_RECORD');
-label = fetch(conn,'select speeding from TRAFFIC_TEST_RECORD');
-labelDouble2= cell2mat(label);
-TESTlabelDouble = double(labelDouble2);
-id = curs(: , 1);
-id= cell2mat(id);
-id = double(id);
-speed = curs(:,2);
-speed= cell2mat(speed);
-speed = double(speed);
-linkid = curs(:,3);
-linkid= cell2mat(linkid);
-linkid = double(linkid);
-TEST = horzcat(id, speed, linkid);
-
-[predict_lebel,accuracy] = svmpredict(TESTlabelDouble,TEST,model);
+% Train the SVM
+model = svmtrain(trainLabel, trainData);
+% Use the SVM model to classify the data
+[predict_label, accuracy, prob_values] = svmpredict(testLabel, testData, model); % run the SVM model on the test data
