@@ -14,7 +14,10 @@ conn.execute('''CREATE TABLE IF NOT EXISTS TRAFFIC_TEST_RECORD
 
 count = 0
 
-fileList = ['traffic-csv/april2015.csv']
+fileList = ['traffic-csv/april2015.csv', 'traffic-csv/may2015.csv', 'traffic-csv/june2015.csv',
+            'traffic-csv/july2015.csv', 'traffic-csv/august2015.csv', 'traffic-csv/september2015.csv',
+            'traffic-csv/october2015.csv',
+            'traffic-csv/november2015.csv', 'traffic-csv/december2015.csv']
 
 # Read the csv file
 for month in fileList:
@@ -46,7 +49,7 @@ for month in fileList:
         conn.commit()
         print('finish ', month, ' ', count)
         # put 2000 records for each file
-        if count == 20000:
+        if count == 2000:
           break
         count += 1
 conn.close()

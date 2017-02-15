@@ -6,7 +6,7 @@ conn = sqlite3.connect('traffic.db')
 cursor = conn.execute("SELECT * FROM TRAFFIC_TEST_RECORD")
 
 #fo = open("raw-traffic-svm", "wb")
-
+count = 0
 for row in cursor:
    id = row[0]
    speed =  row[1]
@@ -21,8 +21,12 @@ for row in cursor:
    hour = d.hour
    min = d.minute
    sec = d.second
-   arg = speeding, ' 1:', id, ' 2:', speed, ' 3:', linkid, ' 4:', month, ' 5:', day, ' 6:', hour, ' 7:', min, ' 8:', sec
-   print(speeding, '1:',id, '2:',speed, '3:',linkid, '4:',month, '5:',day, '6:',hour, '7:',min, '8:',sec)
-   #fo.write(line + '\n')
-
+   arg = (speeding, ' 1:', id, ' 2:', speed, ' 3:', linkid, ' 4:', month, ' 5:', day, ' 6:', hour, ' 7:', min, ' 8:', sec)
+   print(speeding, ' 1:', id, ' 2:', speed, ' 3:', linkid, ' 4:', month, ' 5:', day, ' 6:', hour, ' 7:', min, ' 8:', sec)
+   #fo.write("".join(str(v) for v in arg))
+   count = count + 1
+   if count == 2000:
+      break
 #fo.close()
+
+print(count)

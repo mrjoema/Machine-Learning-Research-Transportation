@@ -53,7 +53,7 @@ for month in fileList:
         conn.commit()
         print('finish ', month, ' ', count)
         # put 2000 records for each file
-        if count == 2000:
+        if count == 5000:
           break
         count += 1
 conn.close()

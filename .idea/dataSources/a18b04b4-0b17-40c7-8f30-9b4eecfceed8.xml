@@ -6,59 +6,87 @@
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <table id="3" parent="2" name="SPEED_LIMIT"/>
-    <table id="4" parent="2" name="TRAFFIC_RECORD"/>
-    <table id="5" parent="2" name="TRAFFIC_TEST_RECORD"/>
-    <column id="6" parent="3" name="linkid">
+    <table id="3" parent="2" name="SENSOR_INFO"/>
+    <table id="4" parent="2" name="SPEED_LIMIT"/>
+    <table id="5" parent="2" name="TRAFFIC_RECORD"/>
+    <table id="6" parent="2" name="TRAFFIC_TEST_RECORD"/>
+    <column id="7" parent="3" name="linkid">
       <DataType>INTEGER(0,-1)|4</DataType>
     </column>
-    <column id="7" parent="3" name="mean">
+    <column id="8" parent="3" name="linkPoints">
       <Position>1</Position>
-      <DataType>REAL(0,-1)|6</DataType>
+      <DataType>TEXT(0,-1)|12</DataType>
     </column>
-    <column id="8" parent="3" name="sd">
-      <Position>2</Position>
-      <DataType>REAL(0,-1)|6</DataType>
-    </column>
-    <column id="9" parent="3" name="size">
-      <Position>3</Position>
-      <DataType>INTEGER(0,-1)|4</DataType>
-    </column>
-    <column id="10" parent="4" name="id">
-      <DataType>INTEGER(0,-1)|4</DataType>
-    </column>
-    <column id="11" parent="4" name="speed">
-      <Position>1</Position>
-      <DataType>REAL(0,-1)|6</DataType>
-    </column>
-    <column id="12" parent="4" name="date_time">
+    <column id="9" parent="3" name="EncodedPolyLine">
       <Position>2</Position>
       <DataType>TEXT(0,-1)|12</DataType>
     </column>
-    <column id="13" parent="4" name="linkid">
+    <column id="10" parent="3" name="EncodedPolyLineLvls">
+      <Position>3</Position>
+      <DataType>TEXT(0,-1)|12</DataType>
+    </column>
+    <column id="11" parent="3" name="Borough">
+      <Position>4</Position>
+      <DataType>TEXT(0,-1)|12</DataType>
+    </column>
+    <column id="12" parent="3" name="linkName">
+      <Position>5</Position>
+      <DataType>TEXT(0,-1)|12</DataType>
+    </column>
+    <column id="13" parent="3" name="Owner">
+      <Position>6</Position>
+      <DataType>TEXT(0,-1)|12</DataType>
+    </column>
+    <column id="14" parent="4" name="linkid">
+      <DataType>INTEGER(0,-1)|4</DataType>
+    </column>
+    <column id="15" parent="4" name="mean">
+      <Position>1</Position>
+      <DataType>REAL(0,-1)|6</DataType>
+    </column>
+    <column id="16" parent="4" name="sd">
+      <Position>2</Position>
+      <DataType>REAL(0,-1)|6</DataType>
+    </column>
+    <column id="17" parent="4" name="size">
       <Position>3</Position>
       <DataType>INTEGER(0,-1)|4</DataType>
     </column>
-    <column id="14" parent="4" name="speeding">
+    <column id="18" parent="5" name="id">
+      <DataType>INTEGER(0,-1)|4</DataType>
+    </column>
+    <column id="19" parent="5" name="speed">
+      <Position>1</Position>
+      <DataType>REAL(0,-1)|6</DataType>
+    </column>
+    <column id="20" parent="5" name="date_time">
+      <Position>2</Position>
+      <DataType>TEXT(0,-1)|12</DataType>
+    </column>
+    <column id="21" parent="5" name="linkid">
+      <Position>3</Position>
+      <DataType>INTEGER(0,-1)|4</DataType>
+    </column>
+    <column id="22" parent="5" name="speeding">
       <Position>4</Position>
       <DataType>BOOLEAN(0,-1)|4</DataType>
     </column>
-    <column id="15" parent="5" name="id">
+    <column id="23" parent="6" name="id">
       <DataType>INTEGER(0,-1)|4</DataType>
     </column>
-    <column id="16" parent="5" name="speed">
+    <column id="24" parent="6" name="speed">
       <Position>1</Position>
       <DataType>REAL(0,-1)|6</DataType>
     </column>
-    <column id="17" parent="5" name="date_time">
+    <column id="25" parent="6" name="date_time">
       <Position>2</Position>
       <DataType>TEXT(0,-1)|12</DataType>
     </column>
-    <column id="18" parent="5" name="linkid">
+    <column id="26" parent="6" name="linkid">
       <Position>3</Position>
       <DataType>INTEGER(0,-1)|4</DataType>
     </column>
-    <column id="19" parent="5" name="speeding">
+    <column id="27" parent="6" name="speeding">
       <Position>4</Position>
       <DataType>BOOLEAN(0,-1)|4</DataType>
     </column>
