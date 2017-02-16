@@ -1,16 +1,46 @@
-% load the dataset
-S = load('USPS_all.mat', 'fea', 'gnd');
-A = [S.fea];
-B = [S.gnd];
+conn = sqlite('traffic.db');
+sqlquery = 'select * from traffic_record';
+results = fetch(conn,sqlquery);
+formatIn = 'mm/dd/yyyy HH:MM:SS';
+time = datevec(results(:,3),formatIn);
+
+carID = results(:,1);
+carID = double(cell2mat(carID));
+carSpeed = results(:,2);
+carSpeed = double(cell2mat(carSpeed));
+camID = results(:,4);
+camID = double(cell2mat(camID));
+isSpeeding = results(:,5);
+isSpeeding = double(cell2mat(isSpeeding));
+C = horzcat(carID,carSpeed,time,camID,isSpeeding);
+
+% testing data
+sqlquery = 'select * from traffic_test_record';
+results = fetch(conn,sqlquery);
+formatIn = 'mm/dd/yyyy HH:MM:SS';
+time = datevec(results(:,3),formatIn);
+
+carID = results(:,1);
+carID = double(cell2mat(carID));
+carSpeed = results(:,2);
+carSpeed = double(cell2mat(carSpeed));
+camID = results(:,4);
+camID = double(cell2mat(camID));
+isSpeeding = results(:,5);
+isSpeeding = double(cell2mat(isSpeeding));
+TestC = horzcat(carID,carSpeed,time,camID,isSpeeding);
+
+close(conn)
 
 % select first 7291 data as a training data
-trainingData = A(1:7291,:);
+trainingData = C(:,1:9);
 % select first 7291 data as a training label
-trainingLabel = B(1:7291,:);
+trainingLabel = C(:,end);
 % select first 7291 data as a testing data
-testingData = A(7292:end,:);
+testingData = TestC(:,1:9);
 % select first 7291 data as a testing label
-testingLabel = B(7292:end,:);
+testingLabel = TestC(:,end);
+
 
 nTrain = length( trainingLabel );
 nTest = length( testingLabel );
@@ -19,7 +49,7 @@ k = 1;
 %%&& knnsearch() doesn't exist in R2009a!!
 testPredIdx = knnsearch( trainingData, testingData, 'K', k );  
 % get labels of all k-nearest neighbors for each test sample
-testPredAll = trainLabel( testPredIdx );    
+testPredAll = trainingLabel( testPredIdx );    
 testPred = zeros( nTest, 1 );
 for te = 1 : nTest
     % get label(s) which occurs most often among neighbors
@@ -35,7 +65,7 @@ for te = 1 : nTest
     testPred( te ) = modeLabel;    
 end
 
-nTestCorrect = sum( testLabel == testPred );
+nTestCorrect = sum( testingLabel == testPred );
 fprintf( 1, 'correct predictions on test set     :   %d / %d,  %5.2f%%\n', ...
     nTestCorrect, nTest, 100 * nTestCorrect / nTest );
 [ mat, order ] = confusionmat( testingLabel, testPred );
