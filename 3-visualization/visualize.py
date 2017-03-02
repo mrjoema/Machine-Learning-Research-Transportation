@@ -80,8 +80,8 @@ for row in cursor:
 print('Speeding Counts: ', speedingCounts)
 
 # Print the dictionary with the id as a key and the value as a frequency
-for key, value in speedingDict.items():
-    print(key, ': ', value)
+# for key, value in speedingDict.items():
+#     print(key, ': ', value)
 
 gmap = gmplot.GoogleMapPlotter(40.7538404,-74.007241, 10)
 
@@ -90,16 +90,14 @@ for key, value in speedingDict.items():
     cursor3 = conn.execute("SELECT EncodedPolyLine from SENSOR_INFO WHERE linkid=?", (key,))
     row = cursor3.fetchall()
     coord_str = row[0][0]
-    print(coord_str)
+    #print(coord_str)
     try:
         coord_list = polyline.decode(coord_str)
         x_data = []
         y_data = []
-        print(key, '----')
         for coordinate in coord_list:
             x_data.append(coordinate[0])
             y_data.append(coordinate[1])
-        print('----')
         # plot heatmap
         if len(x_data) == len(y_data):
             plotCount+=1
@@ -116,5 +114,5 @@ gmap.draw("result.html")
 print('Result plotted: ', plotCount)
 
 # Sort the dictionary
-speedingDict = sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True)
-print(speedingDict)
+for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True):
+    print(key, ': ', value)

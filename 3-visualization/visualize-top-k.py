@@ -80,37 +80,35 @@ for row in cursor:
 print('Speeding Counts: ', speedingCounts)
 
 # Print the dictionary with the id as a key and the value as a frequency
-for key, value in speedingDict.items():
-    print(key, ': ', value)
+#for key, value in speedingDict.items():
+#    print(key, ': ', value)
 
 gmap = gmplot.GoogleMapPlotter(40.7538404,-74.007241, 10)
 
 # Sort the dictionary
 #speedingDict = sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True)
 
-topk = 50
+topk = 30
 
 # Plot on the map
 for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True):
     cursor3 = conn.execute("SELECT EncodedPolyLine from SENSOR_INFO WHERE linkid=?", (key,))
     row = cursor3.fetchall()
     coord_str = row[0][0]
-    print(coord_str)
-    print(value)
+    #print(coord_str)
     try:
         coord_list = polyline.decode(coord_str)
         x_data = []
         y_data = []
-        print(key, '----')
         for coordinate in coord_list:
             x_data.append(coordinate[0])
             y_data.append(coordinate[1])
-        print('----')
         # plot heatmap
         if len(x_data) == len(y_data):
             plotCount+=1
-            gmap.scatter(x_data, y_data, '#f45f42', size=value , marker=False)
-            topk -= 1
+            gmap.scatter(x_data, y_data, '#f45f42', size= value + 20 , marker=False)
+            topk = topk - 1
+            print(key, ': ', value)
     except IndexError:
         print('Skip this record')
 
@@ -122,7 +120,7 @@ for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=Tru
 conn.close()
 
 # save it to html
-gmap.draw("top10-result.html")
+gmap.draw("topk-result.html")
 print('Result plotted: ', plotCount)
 
 
