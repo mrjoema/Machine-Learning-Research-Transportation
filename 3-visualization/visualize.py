@@ -107,6 +107,8 @@ for key, value in speedingDict.items():
 
 #gmap.scatter(x_data, y_data, c='r', marker=True)
 
+conn.close()
+
 # save it to html
-gmap.draw("country_heatmap.html")
+gmap.draw("result.html")
 print('Result plotted: ', plotCount)

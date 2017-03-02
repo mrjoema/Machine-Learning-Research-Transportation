@@ -9,7 +9,7 @@ Mdl = fitcknn(trainingData,trainingLabel,'NumNeighbors',127,'NSMethod','exhausti
 % get the time difference after the model was trained
 e = cputime - t1;
 
-% Test the svm model
+% Test the knn model
 [label,score] = predict(Mdl,testingData);
 
 % Get the accuracy rate
