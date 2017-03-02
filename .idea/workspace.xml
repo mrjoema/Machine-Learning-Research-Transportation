@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml_v2/decode_coord.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ml_v2/visualize.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/heart_scale" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/Knn_r.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/ReadMRC.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/T3_2.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/decision_tree_cus.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/featureSubsetScore.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/h.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/heart.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/k_mean.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/knn_scratch.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/knn_weighting.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/ml_knn.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/ml_nn.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/ml_svm_linear.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/svm_poly.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/test_knn.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/testing.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/python-testing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/untitled2.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~$eMa-ML-Paper.doc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml/traffic.db" afterPath="$PROJECT_DIR$/ml/traffic.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml_v2/traffic.db" afterPath="$PROJECT_DIR$/ml_v2/traffic.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traffic.db" afterPath="$PROJECT_DIR$/traffic.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ml_v2/ml_decision_tree.m" afterPath="$PROJECT_DIR$/ml_v2/ml_decision_tree.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/get-speed-mean-and-sd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/linkinfo-copy.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/LoadData.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/country_heatmap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/decode_coord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/ml_decision_tree.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/test.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/test_result.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/traffic.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/visualize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/visualize_v2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/raw-test-traffic-svm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/raw-traffic-svm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/read-month-traffic-data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/read-month-traffic-test-data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/speed-limit.rtf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/svm-beta.mat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/svm_example.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/write-original-sensor-to-db.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,15 +30,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CSS581-Project$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1488456736330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml_v2" />
     <SUITE FILE_PATH="coverage/CSS581-Term-Project$read_month_traffic_test_data.coverage" NAME="read-month-traffic-test-data Coverage Results" MODIFIED="1486104929933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSS581-Term-Project$write_raw_file.coverage" NAME="write-raw-file Coverage Results" MODIFIED="1486107527966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSS581-Project$read_month_traffic_data.coverage" NAME="read-month-traffic-data Coverage Results" MODIFIED="1488457776348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CSS581-Project$write_original_sensor_to_db.coverage" NAME="write-original-sensor-to-db Coverage Results" MODIFIED="1488443216534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$2_get_speed_mean_to_db.coverage" NAME="2-get-speed-mean-to-db Coverage Results" MODIFIED="1488458657682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
     <SUITE FILE_PATH="coverage/CSS581-Term-Project$write_original_sensor_to_db.coverage" NAME="write-original-sensor-to-db Coverage Results" MODIFIED="1486237541954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$4_read_month_traffic_test_data_to_db.coverage" NAME="4-read-month-traffic-test-data-to-db Coverage Results" MODIFIED="1488459156715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$1_write_original_sensor_to_db.coverage" NAME="1-write-original-sensor-to-db Coverage Results" MODIFIED="1488458614325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1488459943835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
+    <SUITE FILE_PATH="coverage/CSS581-Term-Project$write_raw_file.coverage" NAME="write-raw-file Coverage Results" MODIFIED="1486107527966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$read_month_traffic_data.coverage" NAME="read-month-traffic-data Coverage Results" MODIFIED="1488458599185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$write_original_sensor_to_db.coverage" NAME="write-original-sensor-to-db Coverage Results" MODIFIED="1488443216534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSS581-Project$visualize_v2.coverage" NAME="visualize_v2 Coverage Results" MODIFIED="1488457720188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml_v2" />
     <SUITE FILE_PATH="coverage/CSS581-Project$read_month_traffic_test_data.coverage" NAME="read-month-traffic-test-data Coverage Results" MODIFIED="1488443226122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSS581-Term-Project$read_month_traffic_data.coverage" NAME="read-month-traffic-data Coverage Results" MODIFIED="1486105388302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$3_read_month_traffic_data_to_db.coverage" NAME="3-read-month-traffic-data-to-db Coverage Results" MODIFIED="1488459015287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -72,117 +68,44 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="write-original-sensor-to-db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/write-original-sensor-to-db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1488441837000" expanded="true" signature="552:683" ph="insert into SENSOR_INFO... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="read-month-traffic-data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read-month-traffic-data.py">
+        <entry file="file://$PROJECT_DIR$/data-pre-processing-beta/read-month-traffic-data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="81">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="41" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1488457847000" expanded="true" signature="150:279" ph="CREATE TABLE... TRAFFIC_RECORD" />
-                <marker date="1488457847000" expanded="true" signature="1150:1193" ph="SELECT mean SPEED_LIMIT" />
-                <marker date="1488457847000" expanded="true" signature="1425:1511" ph="INSERT INTO TRAFFIC_RECORD... " />
+                <marker date="1488457776000" expanded="true" signature="216:327" ph="CREATE TABLE... TRAFFIC_RECORD" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="read-month-traffic-test-data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read-month-traffic-test-data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="visualize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml_v2/visualize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1488456593000" expanded="true" signature="1553:1590" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
-                <marker date="1488456593000" expanded="true" signature="1745:1788" ph="SELECT mean SPEED_LIMIT" />
-                <marker date="1488456593000" expanded="true" signature="2429:2478" ph="SELECT linkP... SENSOR_INFO" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="visualize_v2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml_v2/visualize_v2.py">
+        <entry file="file://$PROJECT_DIR$/data-pre-processing-beta/read-month-traffic-test-data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1488457513000" expanded="true" signature="1569:1606" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
-                <marker date="1488457513000" expanded="true" signature="1761:1804" ph="SELECT mean SPEED_LIMIT" />
-                <marker date="1488457513000" expanded="true" signature="2446:2500" ph="SELECT Encod... SENSOR_INFO" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write-raw-file.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/write-raw-file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1488443123000" expanded="true" signature="93:126" ph="SELECT * FRO... TRAFFIC_TEST_RECORD" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="write-to-db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/write-to-db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1488447937000" expanded="true" signature="172:202" ph="DROP TABLE T... " />
+                <marker date="1488447937000" expanded="true" signature="221:337" ph="CREATE TABLE... TRAFFIC_TEST_RECORD" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decode_coord.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ml_v2/decode_coord.py">
+      <file leaf-file-name="visualize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3-visualization/visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linkinfo.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkinfo.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="176" lean-forward="false" selection-start-line="2" selection-start-column="169" selection-end-line="2" selection-end-column="176" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1488459900000" expanded="true" signature="1569:1606" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
+                <marker date="1488459900000" expanded="true" signature="1761:1804" ph="SELECT mean SPEED_LIMIT" />
+                <marker date="1488459900000" expanded="true" signature="2446:2500" ph="SELECT Encod... SENSOR_INFO" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,6 +147,9 @@
         <option value="$PROJECT_DIR$/ml_v2/visualize.py" />
         <option value="$PROJECT_DIR$/ml_v2/visualize_v2.py" />
         <option value="$PROJECT_DIR$/read-month-traffic-data.py" />
+        <option value="$PROJECT_DIR$/data-preprocessing/3-read-month-traffic-data-to-db.py" />
+        <option value="$PROJECT_DIR$/data-preprocessing/4-read-month-traffic-test-data-to-db.py" />
+        <option value="$PROJECT_DIR$/3-visualization/visualize.py" />
       </list>
     </option>
   </component>
@@ -267,6 +193,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS581-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS581-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3-visualization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -276,57 +216,75 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.read-month-traffic-data">
-    <configuration default="false" name="read-month-traffic-test-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.visualize">
+    <configuration default="false" name="1-write-original-sensor-to-db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CSS581-Term-Project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read-month-traffic-test-data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-preprocessing/1-write-original-sensor-to-db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="read-month-traffic-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="2-get-speed-mean-to-db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CSS581-Term-Project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read-month-traffic-data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-preprocessing/2-get-speed-mean-to-db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="write-original-sensor-to-db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="3-read-month-traffic-data-to-db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CSS581-Term-Project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/write-original-sensor-to-db.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-preprocessing/3-read-month-traffic-data-to-db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="4-read-month-traffic-test-data-to-db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data-preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CSS581-Term-Project" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data-preprocessing/4-read-month-traffic-test-data-to-db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -338,31 +296,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml_v2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3-visualization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CSS581-Term-Project" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml_v2/visualize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="visualize_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml_v2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CSS581-Term-Project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml_v2/visualize_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3-visualization/visualize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -582,19 +522,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.read-month-traffic-test-data" />
-      <item index="1" class="java.lang.String" itemvalue="Python.read-month-traffic-data" />
-      <item index="2" class="java.lang.String" itemvalue="Python.write-original-sensor-to-db" />
-      <item index="3" class="java.lang.String" itemvalue="Python.visualize" />
-      <item index="4" class="java.lang.String" itemvalue="Python.visualize_v2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.1-write-original-sensor-to-db" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2-get-speed-mean-to-db" />
+      <item index="2" class="java.lang.String" itemvalue="Python.3-read-month-traffic-data-to-db" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4-read-month-traffic-test-data-to-db" />
+      <item index="4" class="java.lang.String" itemvalue="Python.visualize" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.read-month-traffic-data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.visualize_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.visualize" />
-        <item index="3" class="java.lang.String" itemvalue="Python.read-month-traffic-test-data" />
-        <item index="4" class="java.lang.String" itemvalue="Python.write-original-sensor-to-db" />
+        <item index="0" class="java.lang.String" itemvalue="Python.visualize" />
+        <item index="1" class="java.lang.String" itemvalue="Python.4-read-month-traffic-test-data-to-db" />
+        <item index="2" class="java.lang.String" itemvalue="Python.3-read-month-traffic-data-to-db" />
+        <item index="3" class="java.lang.String" itemvalue="Python.2-get-speed-mean-to-db" />
+        <item index="4" class="java.lang.String" itemvalue="Python.1-write-original-sensor-to-db" />
       </list>
     </recent_temporary>
   </component>
@@ -622,16 +562,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6686217" sideWeight="0.4806867" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48387095" sideWeight="0.5286123" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48387095" sideWeight="0.5286123" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -669,21 +609,6 @@
           <line>93</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/read-month-traffic-test-data.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/read-month-traffic-data.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/read-month-traffic-data.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="57" />
     </breakpoint-manager>
@@ -709,9 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2079">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -719,10 +642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1488441837000" expanded="true" signature="552:683" ph="insert into SENSOR_INFO... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,9 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1971">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,10 +678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1488441837000" expanded="true" signature="552:683" ph="insert into SENSOR_INFO... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -850,9 +765,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,12 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1488456593000" expanded="true" signature="1553:1590" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
-            <marker date="1488456593000" expanded="true" signature="1745:1788" ph="SELECT mean SPEED_LIMIT" />
-            <marker date="1488456593000" expanded="true" signature="2429:2478" ph="SELECT linkP... SENSOR_INFO" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -924,9 +832,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
           <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,12 +840,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1488457513000" expanded="true" signature="1569:1606" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
-            <marker date="1488457513000" expanded="true" signature="1761:1804" ph="SELECT mean SPEED_LIMIT" />
-            <marker date="1488457513000" expanded="true" signature="2446:2500" ph="SELECT Encod... SENSOR_INFO" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -947,12 +848,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1488457847000" expanded="true" signature="150:279" ph="CREATE TABLE... TRAFFIC_RECORD" />
-            <marker date="1488457847000" expanded="true" signature="1150:1193" ph="SELECT mean SPEED_LIMIT" />
-            <marker date="1488457847000" expanded="true" signature="1425:1511" ph="INSERT INTO TRAFFIC_RECORD... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -960,10 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1488441837000" expanded="true" signature="552:683" ph="insert into SENSOR_INFO... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1008,6 +901,74 @@
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1488443123000" expanded="true" signature="93:126" ph="SELECT * FRO... TRAFFIC_TEST_RECORD" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-preprocessing/1-write-original-sensor-to-db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-preprocessing/2-get-speed-mean-to-db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-pre-processing-beta/read-month-traffic-data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1488457776000" expanded="true" signature="216:327" ph="CREATE TABLE... TRAFFIC_RECORD" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-preprocessing/3-read-month-traffic-data-to-db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-preprocessing/4-read-month-traffic-test-data-to-db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-pre-processing-beta/read-month-traffic-test-data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1488447937000" expanded="true" signature="172:202" ph="DROP TABLE T... " />
+            <marker date="1488447937000" expanded="true" signature="221:337" ph="CREATE TABLE... TRAFFIC_TEST_RECORD" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-visualization/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1488459900000" expanded="true" signature="1569:1606" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
+            <marker date="1488459900000" expanded="true" signature="1761:1804" ph="SELECT mean SPEED_LIMIT" />
+            <marker date="1488459900000" expanded="true" signature="2446:2500" ph="SELECT Encod... SENSOR_INFO" />
           </folding>
         </state>
       </provider>
