@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/get-speed-mean-and-sd.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/linkinfo-copy.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/LoadData.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/country_heatmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/decode_coord.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/ml_decision_tree.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/test.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/test_result.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/traffic.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/visualize.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml_v2/visualize_v2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/raw-test-traffic-svm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/raw-traffic-svm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read-month-traffic-data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/read-month-traffic-test-data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/speed-limit.rtf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svm-beta.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svm_example.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/write-original-sensor-to-db.py" afterPath="" />
-    </list>
+    <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +78,7 @@
       <file leaf-file-name="visualize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-visualization/visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="330">
               <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -204,6 +184,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="3-visualization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS581-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CSS581-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-ml-v2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -562,16 +556,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6686217" sideWeight="0.4806867" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48387095" sideWeight="0.5286123" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48387095" sideWeight="0.5286123" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -962,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3-visualization/visualize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="330">
           <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
