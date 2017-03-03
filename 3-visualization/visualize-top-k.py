@@ -1,6 +1,3 @@
-import operator
-from collections import OrderedDict
-
 import gmplot
 import sqlite3
 from scipy.io import loadmat
@@ -106,7 +103,8 @@ for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=Tru
         # plot heatmap
         if len(x_data) == len(y_data):
             plotCount+=1
-            gmap.scatter(x_data, y_data, '#f45f42', size= value + 20 , marker=False)
+            gmap.heatmap(x_data, y_data)
+            #gmap.scatter(x_data, y_data, '#f45f42', size= value + 20 , marker=False)
             topk = topk - 1
             print(key, ': ', value)
     except IndexError:
