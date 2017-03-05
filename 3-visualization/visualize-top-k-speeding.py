@@ -48,12 +48,14 @@ print ("Opened database successfully");
 
 speedingDict = {}
 
-for label in labels:
-    label = int(label or 0)
-    speedingDict[label] = 0
+cursor = conn.execute("SELECT linkid from SENSOR_INFO")
+# init the sensor dictionary
+for sensor_id in cursor:
+    id = sensor_id[0]
+    speedingDict[id] = 0
 
-speedingCounts = 0;
-plotCount = 0;
+speedingCounts = 0
+plotCount = 0
 count = 0
 # Select all speed records
 cursor = conn.execute("SELECT speed from TRAFFIC_TEST_RECORD")
@@ -85,7 +87,7 @@ gmap = gmplot.GoogleMapPlotter(40.7538404,-74.007241, 10)
 # Sort the dictionary
 #speedingDict = sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True)
 
-topk = 30
+topk = 10
 
 # Plot on the map
 for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True):
@@ -113,13 +115,10 @@ for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=Tru
     if topk == 0:
         break
 
-#gmap.scatter(x_data, y_data, c='r', marker=True)
-
 conn.close()
 
 # save it to html
-gmap.draw("topk-result.html")
+gmap.draw("topk-speeding-result.html")
 print('Result plotted: ', plotCount)
-
 
 #print(speedingDict)
