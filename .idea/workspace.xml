@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/3-visualization/topk-congestion-result.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3-visualization/test_result.mat" afterPath="$PROJECT_DIR$/3-visualization/test_result.mat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3-visualization/topk-speeding-result.html" afterPath="$PROJECT_DIR$/3-visualization/topk-speeding-result.html" />
-    </list>
+    <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +14,7 @@
     <SUITE FILE_PATH="coverage/CSS581-Project$2_get_speed_mean_to_db.coverage" NAME="2-get-speed-mean-to-db Coverage Results" MODIFIED="1488458657682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
     <SUITE FILE_PATH="coverage/CSS581-Term-Project$write_original_sensor_to_db.coverage" NAME="write-original-sensor-to-db Coverage Results" MODIFIED="1486237541954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSS581-Project$4_read_month_traffic_test_data_to_db.coverage" NAME="4-read-month-traffic-test-data-to-db Coverage Results" MODIFIED="1488459156715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
-    <SUITE FILE_PATH="coverage/CSS581-Project$visualize_top_10.coverage" NAME="visualize-top-10 Coverage Results" MODIFIED="1488700676179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$visualize_top_10.coverage" NAME="visualize-top-10 Coverage Results" MODIFIED="1488701337716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
     <SUITE FILE_PATH="coverage/CSS581-Project$1_write_original_sensor_to_db.coverage" NAME="1-write-original-sensor-to-db Coverage Results" MODIFIED="1488458614325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
     <SUITE FILE_PATH="coverage/CSS581-Project$visualize_top_k_visited.coverage" NAME="visualize-top-k-visited Coverage Results" MODIFIED="1488700665723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
     <SUITE FILE_PATH="coverage/CSS581-Project$original_visualize.coverage" NAME="original-visualize Coverage Results" MODIFIED="1488466774576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
@@ -59,8 +55,8 @@
       <file leaf-file-name="visualize-top-k-speeding.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-speeding.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <marker date="1488699339000" expanded="true" signature="1419:1449" ph="SELECT linki... SENSOR_INFO" />
                 <marker date="1488699339000" expanded="true" signature="1647:1684" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
@@ -74,7 +70,7 @@
       <file leaf-file-name="visualize-top-k-visited.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-visited.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-453">
+            <state relative-caret-position="1998">
               <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -557,7 +553,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -615,7 +611,7 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="66" />
+      <option name="time" value="68" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -819,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-visited.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-453">
+        <state relative-caret-position="1998">
           <caret line="74" column="22" lean-forward="true" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -831,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-speeding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="110">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <marker date="1488699339000" expanded="true" signature="1419:1449" ph="SELECT linki... SENSOR_INFO" />
             <marker date="1488699339000" expanded="true" signature="1647:1684" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
