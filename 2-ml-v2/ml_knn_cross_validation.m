@@ -15,8 +15,8 @@ while 1
     
     meanAcc = 0;
 
-    a = 1;
-    b = 300;
+    a = 120;
+    b = 200;
     k = int8((b-a).*rand(1,1) + a);
     
     s = {'cityblock', 'chebychev', 'correlation', 'cosine', 'euclidean', 'hamming', 'jaccard', 'mahalanobis', 'minkowski','seuclidean', 'spearman'};
