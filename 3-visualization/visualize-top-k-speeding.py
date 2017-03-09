@@ -69,7 +69,7 @@ for row in cursor:
     speed_limit = int(row[0][0])
     # Debug useage
     #print(linkid, ': ', speed_limit)
-    if float(carSpeed) > (speed_limit + 5):
+    if float(carSpeed) > (speed_limit + 10):
         value = speedingDict[linkid]
         value += 1
         speedingDict[linkid] = value

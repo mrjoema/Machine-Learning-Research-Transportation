@@ -4,7 +4,7 @@
 t = cputime;
 
 % create classification tree using the default settings
-ctree = fitctree(trainingData,trainingLabel); 
+ctree = fitctree(trainingData,trainingLabel,'MinLeafSize',3); 
 
 % get the time difference after the model was trained
 e = cputime-t;
@@ -33,10 +33,7 @@ f1Scores(isnan(f1Scores)) = 0;
 
 meanF1 = mean(f1Scores);
 
-
-% stats.accuracy = (TP + TN)/(TP + FP + FN + TN) ; the average accuracy is returned
-% stats.precision = TP / (TP + FP)                  % for each class label
-% stats.sensitivity = TP / (TP + FN)                % for each class label
-% stats.specificity = TN / (FP + TN)                % for each class label
-% stats.recall = sensitivity                        % for each class label
-% stats.Fscore = 2*TP /(2*TP + FP + FN)            % for each class label
+fprintf('Decision Tree Accuracy: %f\n',CP.CorrectRate);
+fprintf('Decision Tree F1-Score (Mean): %f\n',meanF1);
+fprintf('Decision Tree Precision (Mean): %f\n',mean(precision));
+fprintf('Decision Tree Recall (Mean): %f\n',mean(recall));

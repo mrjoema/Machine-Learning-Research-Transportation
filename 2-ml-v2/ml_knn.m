@@ -26,12 +26,8 @@ f1Scores = 2*(precision.*recall)./(precision + recall);
 f1Scores(isnan(f1Scores)) = 0;
 meanF1 = mean(f1Scores);
 
-
-%stats = Evaluate(testingLabel, label);
-
-% stats.accuracy = (TP + TN)/(TP + FP + FN + TN) ; the average accuracy is returned
-% stats.precision = TP / (TP + FP)                  % for each class label
-% stats.sensitivity = TP / (TP + FN)                % for each class label
-% stats.specificity = TN / (FP + TN)                % for each class label
-% stats.recall = sensitivity                        % for each class label
-% stats.Fscore = 2*TP /(2*TP + FP + FN)            % for each class label
+fprintf('KNN Accuracy: %f\n',CP.CorrectRate);
+fprintf('KNN Accuracy F1-Score (Mean): %f\n',meanF1);
+fprintf('KNN Precision (Mean): %f\n',mean(precision));
+fprintf('KNN Recall (Mean): %f\n',mean(recall));
+fprintf('Time: %f\n',e);
