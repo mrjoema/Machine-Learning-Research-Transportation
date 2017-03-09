@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/LoadData.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/ml_decision_tree.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/ml_knn.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/ml_knn_cross_validation.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/ml_svm_linear.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/ml_svm_poly.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2-ml-v2/traffic.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/csv2sqlite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/Knn_r.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/LoadData.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/ReadMRC.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/T3_2.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/decision_tree_cus.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/featureSubsetScore.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/heart.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/k_mean.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/knn_scratch.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/knn_weighting.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/ml_decision_tree.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/ml_knn.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/ml_nn.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/ml_svm_linear.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/svm_poly.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/testing.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ml/traffic.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/april2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/april2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/august2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/august2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/december2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/december2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/february2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/january2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/july2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/july2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/june2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/june2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/march2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/may2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/may2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/november2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/november2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/october2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/october2016.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/september2015.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/traffic-csv/september2016.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-data-preprocessing/traffic.db" afterPath="$PROJECT_DIR$/1-data-preprocessing/traffic.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data-pre-processing-beta/read-month-traffic-data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data-pre-processing-beta/read-month-traffic-test-data.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -624,7 +578,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6686217" sideWeight="0.4806867" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48180494" sideWeight="0.537196" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48180494" sideWeight="0.537196" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -648,11 +602,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/write-raw-file.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ml_v2/visualize.py</url>
           <line>111</line>
@@ -696,10 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-            <marker date="1488443123000" expanded="true" signature="93:126" ph="SELECT * FRO... TRAFFIC_TEST_RECORD" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,10 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#14#0" expanded="false" />
-            <marker date="1488443123000" expanded="true" signature="93:126" ph="SELECT * FRO... TRAFFIC_TEST_RECORD" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
