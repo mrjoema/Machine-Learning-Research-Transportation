@@ -3,6 +3,8 @@ import sqlite3
 from scipy.io import loadmat
 import polyline
 
+topk = 10
+
 x = loadmat('test_result.mat')
 labels = x['label']
 
@@ -27,7 +29,6 @@ for label in labels:
     value += 1
     sensorDict[label] = value
 
-topk = 10
 plotCount = 0
 gmap = gmplot.GoogleMapPlotter(40.7538404,-74.007241, 10)
 # Plot on the map

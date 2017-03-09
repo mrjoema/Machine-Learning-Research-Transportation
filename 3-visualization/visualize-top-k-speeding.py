@@ -3,6 +3,8 @@ import sqlite3
 from scipy.io import loadmat
 import polyline
 
+topk = 10
+
 x = loadmat('test_result.mat')
 labels = x['label']
 
@@ -50,8 +52,6 @@ gmap = gmplot.GoogleMapPlotter(40.7538404,-74.007241, 10)
 
 # Sort the dictionary
 #speedingDict = sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True)
-
-topk = 10
 
 # Plot on the map
 for key, value in sorted(speedingDict.items(), key=lambda kv: kv[1], reverse=True):
