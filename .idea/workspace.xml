@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c74ae025-0249-415a-8266-5830c2a40a0f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-ml-v2/ml_decision_tree.m" afterPath="$PROJECT_DIR$/2-ml-v2/ml_decision_tree.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-ml-v2/ml_knn.m" afterPath="$PROJECT_DIR$/2-ml-v2/ml_knn.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3-visualization/topk-speeding-result.html" afterPath="$PROJECT_DIR$/3-visualization/topk-speeding-result.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3-visualization/visualize-top-k-speeding.py" afterPath="$PROJECT_DIR$/3-visualization/visualize-top-k-speeding.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +19,7 @@
     <SUITE FILE_PATH="coverage/CSS581-Project$4_read_month_traffic_test_data_to_db.coverage" NAME="4-read-month-traffic-test-data-to-db Coverage Results" MODIFIED="1488459156715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
     <SUITE FILE_PATH="coverage/CSS581-Project$visualize_top_10.coverage" NAME="visualize-top-10 Coverage Results" MODIFIED="1489048524656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
     <SUITE FILE_PATH="coverage/CSS581-Project$1_write_original_sensor_to_db.coverage" NAME="1-write-original-sensor-to-db Coverage Results" MODIFIED="1488458614325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data-preprocessing" />
-    <SUITE FILE_PATH="coverage/CSS581-Project$visualize_top_k_visited.coverage" NAME="visualize-top-k-visited Coverage Results" MODIFIED="1488700665723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
+    <SUITE FILE_PATH="coverage/CSS581-Project$visualize_top_k_visited.coverage" NAME="visualize-top-k-visited Coverage Results" MODIFIED="1489051196697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
     <SUITE FILE_PATH="coverage/CSS581-Project$original_visualize.coverage" NAME="original-visualize Coverage Results" MODIFIED="1488466774576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
     <SUITE FILE_PATH="coverage/CSS581-Project$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1488469320258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3-visualization" />
     <SUITE FILE_PATH="coverage/CSS581-Term-Project$write_raw_file.coverage" NAME="write-raw-file Coverage Results" MODIFIED="1486107527966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -58,7 +55,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="visualize-top-k-speeding.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="visualize-top-k-speeding.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-speeding.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
@@ -73,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualize-top-k-visited.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="visualize-top-k-visited.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-visited.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1917">
+            <state relative-caret-position="274">
               <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -119,6 +116,8 @@
       <find>/2/2</find>
       <find>print</find>
       <find>sort</find>
+      <find>4616209</find>
+      <find>4616324</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,7 +213,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
-  <component name="RunManager" selected="Python.visualize-top-10">
+  <component name="RunManager" selected="Python.visualize-top-k-visited">
     <configuration default="false" name="visualize" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -528,8 +527,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.visualize-top-10" />
-        <item index="1" class="java.lang.String" itemvalue="Python.visualize-top-k-visited" />
+        <item index="0" class="java.lang.String" itemvalue="Python.visualize-top-k-visited" />
+        <item index="1" class="java.lang.String" itemvalue="Python.visualize-top-10" />
         <item index="2" class="java.lang.String" itemvalue="Python.visualize-top-k-congestion" />
         <item index="3" class="java.lang.String" itemvalue="Python.visualize" />
         <item index="4" class="java.lang.String" itemvalue="Python.original-visualize" />
@@ -560,7 +559,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1737" y="-141" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27825466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -568,7 +567,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6686217" sideWeight="0.4806867" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48180494" sideWeight="0.537196" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48180494" sideWeight="0.537196" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -808,18 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-visited.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1917">
-          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1488699857000" expanded="true" signature="1416:1446" ph="SELECT linki... SENSOR_INFO" />
-            <marker date="1488699857000" expanded="true" signature="2001:2055" ph="SELECT Encod... SENSOR_INFO" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3-visualization/original-visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1971">
@@ -827,6 +814,18 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1488466695000" expanded="true" signature="1629:1668" ph="SELECT speed... TRAFFIC_TEST_RECORD" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3-visualization/visualize-top-k-visited.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1488699857000" expanded="true" signature="1416:1446" ph="SELECT linki... SENSOR_INFO" />
+            <marker date="1488699857000" expanded="true" signature="2001:2055" ph="SELECT Encod... SENSOR_INFO" />
           </folding>
         </state>
       </provider>

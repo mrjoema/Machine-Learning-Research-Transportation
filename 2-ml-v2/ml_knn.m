@@ -30,4 +30,3 @@ fprintf('KNN Accuracy: %f\n',CP.CorrectRate);
 fprintf('KNN Accuracy F1-Score (Mean): %f\n',meanF1);
 fprintf('KNN Precision (Mean): %f\n',mean(precision));
 fprintf('KNN Recall (Mean): %f\n',mean(recall));
-fprintf('Time: %f\n',e);
