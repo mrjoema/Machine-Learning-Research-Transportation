@@ -4,7 +4,7 @@
 t = cputime;
 
 % create classification tree using the default settings
-ctree = fitctree(trainingData,trainingLabel,'MinLeafSize',3); 
+ctree = fitctree(trainingData,trainingLabel); 
 
 % get the time difference after the model was trained
 e = cputime-t;
